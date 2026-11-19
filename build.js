@@ -22,10 +22,11 @@ const site = {
 site.url = site.url.replace(/\/$/, "");
 
 const esc = (s = "") => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-const readableDate = (d) => d.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+const readableDate = (d) => d.toLocaleDateString("en-US", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
 const isoDate = (d) => d.toISOString().slice(0, 10);
 const readingTime = (html) => Math.max(1, Math.round(html.replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length / 200)) + " min read";
 const year = new Date().getFullYear();
+const LOGO = ["logo.jpg", "logo.jpeg", "logo.png", "logo.webp", "Logo.jpg", "Logo.png"].find((f) => fs.existsSync(f));
 
 function write(url, content) {
   const file = path.join(OUT, url.endsWith("/") ? url + "index.html" : url);
@@ -63,7 +64,8 @@ function page({ title, description, url, type = "website", body, current = "" })
   <meta property="og:description" content="${esc(description || site.description)}">
   <meta property="og:type" content="${type}">
   <meta property="og:url" content="${site.url}${url}">
-  <meta name="twitter:card" content="summary">
+  ${LOGO ? `<meta property="og:image" content="${site.url}/${LOGO}">` : ""}
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -112,11 +114,14 @@ fs.mkdirSync(OUT);
 write("/", page({
   url: "/",
   body: `<section class="hero">
-  <div class="wrap">
-    <p class="eyebrow light">Bible studies</p>
-    <h1>Go deeper than<br>a first reading.</h1>
-    <p class="hero-lede">${esc(site.description)}</p>
-    <a class="btn" href="/studies/">Browse the studies</a>
+  <div class="wrap hero-inner">
+    <div class="hero-text">
+      <p class="eyebrow light">Bible studies</p>
+      <h1>Go deeper than<br>a first reading.</h1>
+      <p class="hero-lede">${esc(site.description)}</p>
+      <a class="btn" href="/studies/">Browse the studies</a>
+    </div>
+    ${LOGO ? `<img class="hero-logo" src="/${LOGO}" alt="Beyond the Surface: sunlight shining down into the deep sea" width="900" height="1124">` : ""}
   </div>
   <svg class="waves" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
     <path d="M0 60c120-30 240-30 360 0s240 30 360 0 240-30 360 0 240 30 360 0v60H0z" fill="var(--paper)"/>
@@ -220,7 +225,9 @@ write("/about/", page({
 }));
 
 // Static files
-for (const f of ["style.css", "favicon.svg"]) if (fs.existsSync(f)) fs.copyFileSync(f, path.join(OUT, f));
+for (const f of fs.readdirSync(".")) {
+  if (f === "style.css" || /\.(svg|png|jpe?g|webp|gif|ico)$/i.test(f)) fs.copyFileSync(f, path.join(OUT, f));
+}
 const pdfs = fs.readdirSync(".").filter((f) => f.toLowerCase().endsWith(".pdf"));
 if (pdfs.length) {
   fs.mkdirSync(path.join(OUT, "files"), { recursive: true });

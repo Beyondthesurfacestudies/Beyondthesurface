@@ -1,4 +1,16 @@
-{
+{{
+  "name": "beyondthesurface",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node build.js"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.8"
+  }
+}
   "name": "beyondthesurface",
   "version": "1.0.0",
   "private": true,

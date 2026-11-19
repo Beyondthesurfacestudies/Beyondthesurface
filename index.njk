@@ -1,0 +1,38 @@
+---
+layout: base.njk
+title: Beyond the Surface
+---
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow light">Bible studies</p>
+    <h1>Go deeper than<br>a first reading.</h1>
+    <p class="hero-lede">{{ site.description }}</p>
+    <a class="btn" href="/studies/">Browse the studies</a>
+  </div>
+  <svg class="waves" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 60c120-30 240-30 360 0s240 30 360 0 240-30 360 0 240 30 360 0v60H0z" fill="var(--paper)"/>
+  </svg>
+</section>
+
+<section class="wrap section">
+  <div class="section-head">
+    <h2>Latest studies</h2>
+    <a class="more" href="/studies/">View all →</a>
+  </div>
+  {% if collections.studies.length %}
+  <div class="grid">
+    {% for s in collections.studies | limit(6) %}{% include "card.njk" %}{% endfor %}
+  </div>
+  {% else %}
+  <p class="empty">The first study is on its way.</p>
+  {% endif %}
+</section>
+
+<section class="wrap section approach">
+  <h2>How these studies work</h2>
+  <ol class="steps">
+    <li><span>1</span><h3>Observe</h3><p>Slow down and read the passage carefully. What does the text actually say?</p></li>
+    <li><span>2</span><h3>Interpret</h3><p>Look at context, culture and key words to understand what it meant then.</p></li>
+    <li><span>3</span><h3>Apply</h3><p>Ask what it means for us now, and end with questions to reflect on or discuss.</p></li>
+  </ol>
+</section>

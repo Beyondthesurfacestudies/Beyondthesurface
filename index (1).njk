@@ -1,0 +1,43 @@
+---
+layout: base.njk
+title: Studies
+permalink: /studies/
+eleventyExcludeFromCollections: true
+---
+<section class="wrap section page-head">
+  <h1>All studies</h1>
+  <p class="lede">{{ collections.studies.length }} {{ "study" if collections.studies.length == 1 else "studies" }}, newest first.</p>
+  <div class="filters">
+    <input id="q" type="search" placeholder="Search by title, passage or topic…" aria-label="Search studies">
+    {% set topics = collections.studies | allTopics %}
+    {% if topics.length %}
+    <div class="chips" role="group" aria-label="Filter by topic">
+      <button class="chip" aria-pressed="true" data-topic="">All</button>
+      {% for t in topics %}<button class="chip" aria-pressed="false" data-topic="{{ t }}">{{ t }}</button>{% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  <div class="grid" id="list">
+    {% for s in collections.studies %}{% include "card.njk" %}{% endfor %}
+  </div>
+  <p class="empty" id="none" hidden>No studies match your search.</p>
+</section>
+<script>
+  (() => {
+    const q = document.getElementById("q"), cards = [...document.querySelectorAll("#list .card")];
+    const chips = [...document.querySelectorAll(".chip")], none = document.getElementById("none");
+    let topic = "";
+    function apply() {
+      const term = q.value.trim().toLowerCase(); let shown = 0;
+      cards.forEach(c => {
+        const ok = (!term || c.dataset.search.includes(term)) && (!topic || c.dataset.topics.split("|").includes(topic));
+        c.hidden = !ok; if (ok) shown++;
+      });
+      none.hidden = shown > 0;
+    }
+    q.addEventListener("input", apply);
+    chips.forEach(b => b.addEventListener("click", () => {
+      topic = b.dataset.topic; chips.forEach(x => x.setAttribute("aria-pressed", x === b)); apply();
+    }));
+  })();
+</script>

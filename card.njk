@@ -1,0 +1,6 @@
+<a class="card" href="{{ s.url }}" data-search="{{ (s.data.title + ' ' + (s.data.passage or '') + ' ' + (s.data.summary or '') + ' ' + (s.data.topics or []) | join(' ')) | lower }}" data-topics="{{ (s.data.topics or []) | join('|') }}">
+  {% if s.data.passage %}<p class="eyebrow">{{ s.data.passage }}</p>{% endif %}
+  <h3>{{ s.data.title }}</h3>
+  {% if s.data.summary %}<p>{{ s.data.summary }}</p>{% endif %}
+  <p class="meta"><time datetime="{{ s.date | isoDate }}">{{ s.date | readableDate }}</time>{% if s.data.pdf %} <span class="pdf-badge">PDF</span>{% endif %}</p>
+</a>

@@ -1,22 +1,15 @@
----
-layout: base.njk
-title: About
-permalink: /about/
----
-<section class="wrap narrow section prose page-head">
-
 # About Beyond the Surface
 
-It is easy to read a familiar Bible passage and think we already know what it says. *Beyond the Surface* is a place to slow down and look again: at the context, the words, the people, and what it all means for how we live today.
+Hi, I'm Charlotte. Ever since I was young, I've loved to dig: to research things, to find out how everything fits together. For the past few years, I've been doing that in my Bible. And I love it!
 
-Each study works through a passage step by step and ends with questions for personal reflection or group discussion. Feel free to use them on your own, in a small group, or as a starting point for teaching.
+God's Word is so ingenious, with so many layers. Every time, I'm amazed when I discover the deeper meaning of a story, or the presence of Jesus in the Old Testament, or the original meaning of a single word that suddenly puts everything in a whole new light.
 
-## Who writes these studies?
+In short: I never get tired of reading it, and I'd love to take you along and share what stands out to me in the Bible.
 
-My name is {{ site.author }}. *(Write a few sentences about yourself here: who you are, why you started writing these studies, and who they are for.)*
+## Get in touch
+
+Want to know more, or get in touch? You can find me on Instagram at [@beyond_the_surface_studies](https://www.instagram.com/beyond_the_surface_studies/), or look for Beyond the Surface in the [Bible App](https://www.bible.com/nl/organizations/a25773d0-84ae-4698-b7bc-ec6a4838bd63).
 
 ## Scripture quotations
 
 Unless noted otherwise, Scripture quotations are taken from the World English Bible (WEB), which is in the public domain.
-
-</section>

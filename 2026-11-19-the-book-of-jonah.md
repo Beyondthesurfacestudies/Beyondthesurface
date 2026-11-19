@@ -2,13 +2,13 @@
 title: "Jonah: Running from a Merciful God"
 passage: The Book of Jonah
 date: 2026-11-19
-summary: An eleven-day journey through the book of Jonah. A prophet runs from God, a sea monster swallows him, a violent empire repents, and the story ends with a question for all of us.
+summary: An eleven-part journey through the book of Jonah. A prophet runs from God, a sea monster swallows him, a violent empire repents, and the story ends with a question for all of us.
 topics: [Jonah, Grace, Old Testament]
 ---
 
-*This study is made up of eleven daily devotionals. Each day begins with the Bible passages to read first. Scripture quotations are from the World English Bible (WEB).*
+*This study is made up of eleven short devotionals. Each one begins with the Bible passages to read first. Scripture quotations are from the World English Bible (WEB).*
 
-## Day 1: Running Away
+## 1. Running Away
 
 **Read:** Jonah 1:1–3 · 2 Kings 14:25 · Nahum 3:1–4 · Luke 11:29–32
 
@@ -28,7 +28,7 @@ Jonah decides to flee. He wants to get as far away from Nineveh as possible. Nin
 
 **Reflect:** It's striking: Jonah knows God's voice, and yet he runs as far away from it as he can. Is there something you know God is asking of you, but that you would rather run away from?
 
-## Day 2: Asleep in the Storm
+## 2. Asleep in the Storm
 
 **Read:** Jonah 1:4–10 · Psalm 139:7–10
 
@@ -56,7 +56,7 @@ The name Yahweh fills the sailors with awe and fear. How could Jonah have done t
 
 **Reflect:** While everyone around him felt the danger, Jonah slept. Where might you have become less sensitive to God's voice, His calling, or the needs of others?
 
-## Day 3: Digging Through Walls
+## 3. Digging Through Walls
 
 **Read:** Jonah 1:11–13 · Amos 9:2–3
 
@@ -84,7 +84,7 @@ What exactly is Leviathan? We'll come back to that later, so be patient a little
 
 **Reflect:** If there truly is no place beyond God's reach, what does your urge to run say about how you see God?
 
-## Day 4: Overboard
+## 4. Overboard
 
 **Read:** Jonah 1:14–16
 
@@ -110,7 +110,7 @@ Whoever runs from God discovers that there is no place beyond His reach. That is
 
 **Reflect:** There is no place where God doesn't see you and no depth where He can't reach you. Is that mainly a comfort to you, or something you would rather run away from?
 
-## Day 5: The Great Fish
+## 5. The Great Fish
 
 **Read:** Jonah 1:17 · Matthew 12:40 · Luke 11:30
 
@@ -124,7 +124,7 @@ Why does this matter? For Greek readers, *kētos* carried a much richer meaning 
 
 Over time, we have lost the meaning of this image. But in earlier centuries, this *kētos* appears again and again in sculpture and painting, as early as the third century AD. The chaos monster is often depicted with a twisting serpent's body and a dog-like head full of teeth. A terrifying beast, and surely one of a kind even in those days.
 
-It is striking that the fish is masculine in Jonah 1:17 (*dag*) and feminine in Jonah 2:1 (*dagah*). In Psalm 139:15, David describes how he was formed by God “in the depths of the earth” (*taḥtiyyot ereṣ*), an image for the hidden place of the mother's womb. For Jonah, the inside of the fish becomes a starting point from which he eventually emerges as a “new” person. More about *ereṣ* on Day 6.
+It is striking that the fish is masculine in Jonah 1:17 (*dag*) and feminine in Jonah 2:1 (*dagah*). In Psalm 139:15, David describes how he was formed by God “in the depths of the earth” (*taḥtiyyot ereṣ*), an image for the hidden place of the mother's womb. For Jonah, the inside of the fish becomes a starting point from which he eventually emerges as a “new” person. More about *ereṣ* in part 6.
 
 Back to Jesus. He refers to the story of Jonah. In Luke, Jesus even says that Jonah himself was the sign:
 
@@ -134,7 +134,7 @@ Jonah *is* the message. That may be one reason why, in art and reliefs, Jonah is
 
 Jesus takes the comparison deeper. Jonah was deep in the belly of the *kētos*, the chaos monster. That was his judgment. Jesus went to meet judgment for our sins, and after His death on the cross He remained in the grave for three days. Through His resurrection, every person can be saved. Jesus is so much more than Jonah.
 
-## Day 6: Out of the Depths
+## 6. Out of the Depths
 
 **Read:** Micah 7:19 · Psalm 42:7 · Jonah 2:1–10
 
@@ -164,7 +164,7 @@ How amazing that this chaos monster obeys immediately, unlike Jonah himself, and
 
 **Reflect:** In his deepest need, Jonah drew on the Psalms. Which words of God carry you when your own words fall short?
 
-## Day 7: Five Words
+## 7. Five Words
 
 **Read:** Jonah 3:1–5
 
@@ -182,7 +182,7 @@ Another possible explanation is that, in the period in which many scholars place
 
 **Reflect:** Five words, and an entire city turns around. If God could bring a pagan world city to repentance with five words, why do we so often doubt the power of His Word?
 
-## Day 8: A City Turns Around
+## 8. A City Turns Around
 
 **Read:** Jonah 3:5–10
 
@@ -198,7 +198,7 @@ Through their actions, they showed that they recognized how wicked they had been
 
 **Reflect:** God's judgment was not the last word; His mercy was. Where in your life is He still waiting for you to turn around?
 
-## Day 9: Angry at Grace
+## 9. Angry at Grace
 
 **Read:** Exodus 34:6 · Deuteronomy 18:21–22 · Jonah 4:1–4
 
@@ -226,7 +226,7 @@ A rhetorical question that invites Jonah to take a look in the mirror.
 
 **Reflect:** What question might God ask you about your anger toward people you think deserve punishment?
 
-## Day 10: The Plant, the Worm, and the Wind
+## 10. The Plant, the Worm, and the Wind
 
 **Read:** Jonah 4:5–11
 
@@ -254,7 +254,7 @@ We don't read any answer from Jonah. The story ends very abruptly, with an open 
 
 **Reflect:** The book doesn't end with Jonah's answer, but with God's question. Maybe because that question isn't only meant for Jonah. How would you answer it?
 
-## Day 11: Nineveh's End
+## 11. Nineveh's End
 
 **Read:** Nahum 1:1–3 · Exodus 34:7 · Nahum 3:1–7 · Nahum 3:18–19
 

@@ -49,7 +49,8 @@ const studies = fs.readdirSync(".")
   .sort((a, b) => b.date - a.date);
 
 // ---------- Layout ----------
-function page({ title, description, url, type = "website", body, current = "" }) {
+function page({ title, description, url, type = "website", body, current = "", image = "" }) {
+  const ogImage = image || LOGO;
   const fullTitle = title && title !== site.title ? `${esc(title)} · ${esc(site.title)}` : esc(site.title);
   return `<!DOCTYPE html>
 <html lang="${site.language}">
@@ -64,7 +65,7 @@ function page({ title, description, url, type = "website", body, current = "" })
   <meta property="og:description" content="${esc(description || site.description)}">
   <meta property="og:type" content="${type}">
   <meta property="og:url" content="${site.url}${url}">
-  ${LOGO ? `<meta property="og:image" content="${site.url}/${LOGO}">` : ""}
+  ${ogImage ? `<meta property="og:image" content="${site.url}/${ogImage}">` : ""}
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -99,7 +100,8 @@ ${body}
 </html>`;
 }
 
-const card = (s) => `<a class="card" href="${s.url}" data-search="${esc([s.title, s.passage, s.summary, ...s.topics].filter(Boolean).join(" ").toLowerCase())}" data-topics="${esc(s.topics.join("|"))}">
+const card = (s) => `<a class="card${s.image ? " has-image" : ""}" href="${s.url}" data-search="${esc([s.title, s.passage, s.summary, ...s.topics].filter(Boolean).join(" ").toLowerCase())}" data-topics="${esc(s.topics.join("|"))}">
+  ${s.image ? `<img class="card-image" src="/${esc(s.image)}" alt="" loading="lazy">` : ""}
   ${s.passage ? `<p class="eyebrow">${esc(s.passage)}</p>` : ""}
   <h3>${esc(s.title)}</h3>
   ${s.summary ? `<p>${esc(s.summary)}</p>` : ""}
@@ -186,7 +188,7 @@ write("/studies/", page({
 studies.forEach((s, i) => {
   const older = studies[i + 1], newer = studies[i - 1];
   write(s.url, page({
-    title: s.title, description: s.summary, url: s.url, type: "article", current: "studies",
+    title: s.title, description: s.summary, url: s.url, type: "article", current: "studies", image: s.image,
     body: `<article class="study">
   <header class="study-head wrap narrow">
     <a class="back" href="/studies/">← All studies</a>

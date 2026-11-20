@@ -4,6 +4,7 @@ passage: Genesis 13 & 19
 date: 2026-11-20
 summary: Lot's wife looked back, and Jesus tells us to remember her. A four-part study on where our hearts are, what we hold on to, and why we were made for a better country.
 topics: [Genesis, Faith, Old Testament]
+image: lot-cover.jpg
 ---
 
 *This study is made up of four short devotionals. Each one begins with the Bible passages to read first. Scripture quotations are from the World English Bible (WEB).*

@@ -4,6 +4,7 @@ passage: The Book of Job
 date: 2026-11-19
 summary: A twelve-part journey through the book of Job. A righteous man loses everything, his friends look for someone to blame, and God answers not with an explanation but with His presence.
 topics: [Job, Suffering, Old Testament]
+image: job-cover.jpg
 ---
 
 *This study is made up of twelve short devotionals. Each one begins with the Bible passages to read first. Scripture quotations are from the World English Bible (WEB).*

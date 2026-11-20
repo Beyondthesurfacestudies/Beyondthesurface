@@ -1,5 +1,5 @@
 ---
-title: "Job: where Is God When Everything Falls Apart?"
+title: "Job: Where Is God When Everything Falls Apart?"
 passage: The Book of Job
 date: 2026-11-19
 summary: A twelve-part journey through the book of Job. A righteous man loses everything, his friends look for someone to blame, and God answers not with an explanation but with His presence.

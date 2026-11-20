@@ -4,8 +4,9 @@ passage: The Book of Jonah
 date: 2026-11-19
 summary: An eleven-part journey through the book of Jonah. A prophet runs from God, a sea monster swallows him, a violent empire repents, and the story ends with a question for all of us.
 topics: [Jonah, Grace, Old Testament]
----
 image: jonah-cover.jpg
+---
+
 
 *This study is made up of eleven short devotionals. Each one begins with the Bible passages to read first. Scripture quotations are from the World English Bible (WEB).*
 

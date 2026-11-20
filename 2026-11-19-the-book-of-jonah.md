@@ -1,5 +1,5 @@
 ---
-title: "Jonah: running from a Merciful God"
+title: "Jonah: Running from a Merciful God"
 passage: The Book of Jonah
 date: 2026-11-19
 summary: An eleven-part journey through the book of Jonah. A prophet runs from God, a sea monster swallows him, a violent empire repents, and the story ends with a question for all of us.

@@ -37,7 +37,7 @@ And that is the heart of the problem. Jesus says:
 
 The thing you cherish deep inside and don't want to let go of is exactly the thing that keeps you captive. It holds you in a place that isn't good for you.
 
-**Reflect:** Do you recognize this in your own life?
+Do you recognize this in your own life? In what area?
 
 ## 2. Guard Your Heart
 
@@ -51,7 +51,7 @@ Compare it to a beautiful house with a rotting foundation. At first you don't se
 
 For the Israelites, what was gnawing deep in their hearts eventually came out. It showed itself in their actions. They began to put God to the test. In the end, they even went back to honoring the idols of Egypt: idols that had never helped them, but that were familiar, that reminded them of their old life in Egypt. In their hearts, they returned to their old existence in slavery. Spiritually, they were still captives. Strangers in a land they were never meant for. A land that would never truly be their home.
 
-**Reflect:** Are there things in your life that quietly take over your heart and your thoughts, without you meaning them to?
+Are there things in your life that quietly take over your heart and your thoughts, without you meaning them to?
 
 ## 3. Step by Step Toward Sodom
 
@@ -73,7 +73,7 @@ Let's look back for a moment. In Genesis 18:32, Abraham pleaded with God to spar
 
 Can you imagine? If this happened today, it would be all over the news. This couldn't have been an isolated incident. It was a violent eruption of years of moral decay among the people of Sodom, the bitter fruit of the corrupt culture there. And this was the society in which Lot and his wife raised their children.
 
-**Reflect:** Lot moved toward Sodom step by step. Is there something in your life that you have slowly grown toward, even though you know it isn't bringing you closer to God?
+Lot moved toward Sodom step by step. Is there something in your life that you have slowly grown toward, even though you know it isn't bringing you closer to God?
 
 ## 4. Remember Lot's Wife
 

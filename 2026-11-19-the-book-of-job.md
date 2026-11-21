@@ -29,7 +29,7 @@ Job immediately understands that this is no coincidence. Something else is going
 
 That is incredible, under these circumstances.
 
-**Reflect:** It may be hard for us to imagine. But if everything you hold dear were suddenly taken away, would you still be able to honor God, like Job did?
+It may be hard for us to imagine. But if everything you hold dear were suddenly taken away, would you still be able to honor God, like Job did?
 
 ## 2. When Nothing Makes Sense Anymore
 
@@ -81,7 +81,7 @@ This seems to be a spiritual battle. Eliphaz attacks Job's intentions and motive
 
 In chapter 5, verse 7, Eliphaz says that “man is born to trouble, as the sparks fly upward.” The Hebrew literally says “as the sons of Resheph fly upward.” Resheph was the Canaanite god of plague. An interesting expression, but hardly an encouraging one for Job.
 
-**Reflect:** Do you recognize in yourself the urge to look for a cause when someone else is suffering?
+Do you recognize in yourself the urge to look for a cause when someone else is suffering?
 
 ## 4. A Theology of Grace
 

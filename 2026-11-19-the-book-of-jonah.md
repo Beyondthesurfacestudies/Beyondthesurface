@@ -25,6 +25,7 @@ And now God called him to go to Israel's archenemy, the Assyrians. According to 
 I can imagine that Jonah must have been very afraid that the same thing would happen to him, especially with such an unwelcome message to deliver. But the text says nothing about that. Jonah has an important reason that we don't read about yet; it only comes out at the end of the book.
 
 Jonah decides to flee. He wants to get as far away from Nineveh as possible. Nineveh lies to the east of Israel, so instead he chooses a place far to the west (probably in present-day Spain). He boards a ship bound for Tarshish, a long sea route that was certainly not without danger.
+
 ![Map: Jonah flees west from Joppa toward Tarshish, while God sends him east to Nineveh](/jonah-map.png)
 
 *An interesting detail:* in Jonah 1 and 2, the word “went down” (Hebrew *yarad*) appears again and again. Jonah goes down to Joppa, down into the ship, and down into the hold (1:3, 5), and finally “down to the bottoms of the mountains” (2:6). Then God brings him up. The story is literally a downward movement that God reverses.
@@ -182,6 +183,8 @@ Nineveh was one of the great cities of Assyria and later the capital of the Neo-
 If we place the story of Jonah in this context, it may help explain the awe the people showed and why they accepted his message right away. It is unlikely that Jonah was spat out on the coast unseen and anonymously, since harbor towns were usually busy and full of trade. And think of the way it happened: a man spat out by such a terrifying sea monster. How much attention would that draw? Jonah probably didn't look very fresh after three days inside the fish, either.
 
 Another possible explanation is that, in the period in which many scholars place Jonah, Assyria was struck by a severe plague (765 BC), a total solar eclipse (763 BC), and internal unrest. In ancient Near Eastern thinking, events like these were signs of divine anger, and the Assyrians took omens extremely seriously. So Jonah may have arrived at exactly the right moment: a foreign prophet appears and announces judgment in forty days, just as the empire has gone through years of disaster.
+
+![Timeline: Jonah in history, from Jeroboam II to the fall of Nineveh in 612 BC](/jonah-timeline.png)
 
 Five words, and an entire city turns around. If God could bring a pagan world city to repentance with five words, why do we so often doubt the power of His Word?
 

@@ -28,7 +28,7 @@ Jonah decides to flee. He wants to get as far away from Nineveh as possible. Nin
 
 *An interesting detail:* in Jonah 1 and 2, the word “went down” (Hebrew *yarad*) appears again and again. Jonah goes down to Joppa, down into the ship, and down into the hold (1:3, 5), and finally “down to the bottoms of the mountains” (2:6). Then God brings him up. The story is literally a downward movement that God reverses.
 
-**Reflect:** It's striking: Jonah knows God's voice, and yet he runs as far away from it as he can. Is there something you know God is asking of you, but that you would rather run away from?
+It's striking: Jonah knows God's voice, and yet he runs as far away from it as he can. Is there something you know God is asking of you, but that you would rather run away from?
 
 ## 2. Asleep in the Storm
 
@@ -56,7 +56,7 @@ He calls God by His personal name, *Yahweh*. And at the same time there is a con
 
 The name Yahweh fills the sailors with awe and fear. How could Jonah have done this?
 
-**Reflect:** While everyone around him felt the danger, Jonah slept. Where might you have become less sensitive to God's voice, His calling, or the needs of others?
+While everyone around him felt the danger, Jonah slept. Where might you have become less sensitive to God's voice, His calling, or the needs of others?
 
 ## 3. Digging Through Walls
 
@@ -84,7 +84,7 @@ By the way, Amos prophesied under the same king, Jeroboam II, as Jonah did (Amos
 
 What exactly is Leviathan? We'll come back to that later, so be patient a little longer. Either way, the same imagery shows up in both books. In Jonah and in Amos, we see a desperate attempt to flee from God's presence and judgment. And that attempt fails, because God is almighty. It is a thread that runs through the whole Bible.
 
-**Reflect:** If there truly is no place beyond God's reach, what does your urge to run say about how you see God?
+If there truly is no place beyond God's reach, what does your urge to run say about how you see God?
 
 ## 4. Overboard
 
@@ -110,7 +110,7 @@ Whoever runs from God discovers that there is no place beyond His reach. That is
 
 > “If I ascend up into heaven, you are there. If I make my bed in Sheol, behold, you are there!” (Psalm 139:8)
 
-**Reflect:** There is no place where God doesn't see you and no depth where He can't reach you. Is that mainly a comfort to you, or something you would rather run away from?
+There is no place where God doesn't see you and no depth where He can't reach you. Is that mainly a comfort to you, or something you would rather run away from?
 
 ## 5. The Great Fish
 
@@ -164,7 +164,7 @@ But just as Jonah's soul is fainting, God's saving help arrives. God hears Jonah
 
 How amazing that this chaos monster obeys immediately, unlike Jonah himself, and spits him out.
 
-**Reflect:** In his deepest need, Jonah drew on the Psalms. Which words of God carry you when your own words fall short?
+In his deepest need, Jonah drew on the Psalms. Which words of God carry you when your own words fall short?
 
 ## 7. Five Words
 
@@ -182,7 +182,7 @@ If we place the story of Jonah in this context, it may help explain the awe the 
 
 Another possible explanation is that, in the period in which many scholars place Jonah, Assyria was struck by a severe plague (765 BC), a total solar eclipse (763 BC), and internal unrest. In ancient Near Eastern thinking, events like these were signs of divine anger, and the Assyrians took omens extremely seriously. So Jonah may have arrived at exactly the right moment: a foreign prophet appears and announces judgment in forty days, just as the empire has gone through years of disaster.
 
-**Reflect:** Five words, and an entire city turns around. If God could bring a pagan world city to repentance with five words, why do we so often doubt the power of His Word?
+Five words, and an entire city turns around. If God could bring a pagan world city to repentance with five words, why do we so often doubt the power of His Word?
 
 ## 8. A City Turns Around
 
@@ -198,7 +198,7 @@ This cruel empire, whose wickedness had “come up before” God (1:2), makes a 
 
 Through their actions, they showed that they recognized how wicked they had been. God does not punish the city. Nineveh escapes its judgment.
 
-**Reflect:** God's judgment was not the last word; His mercy was. Where in your life is He still waiting for you to turn around?
+God's judgment was not the last word; His mercy was. Where in your life is He still waiting for you to turn around?
 
 ## 9. Angry at Grace
 
@@ -226,7 +226,7 @@ And God asks:
 
 A rhetorical question that invites Jonah to take a look in the mirror.
 
-**Reflect:** What question might God ask you about your anger toward people you think deserve punishment?
+What question might God ask you about your anger toward people you think deserve punishment?
 
 ## 10. The Plant, the Worm, and the Wind
 
@@ -254,7 +254,7 @@ The plant came up in one night and died in one night. Jonah didn't have to do an
 
 We don't read any answer from Jonah. The story ends very abruptly, with an open ending. We don't know what happened to Jonah after this. But if we read the Bible carefully, we can read about the future of Nineveh.
 
-**Reflect:** The book doesn't end with Jonah's answer, but with God's question. Maybe because that question isn't only meant for Jonah. How would you answer it?
+The book doesn't end with Jonah's answer, but with God's question. Maybe because that question isn't only meant for Jonah. How would you answer it?
 
 ## 11. Nineveh's End
 

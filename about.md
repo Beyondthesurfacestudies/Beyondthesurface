@@ -6,6 +6,10 @@ God's Word is so ingenious, with so many layers. Every time, I'm amazed when I d
 
 In short: I never get tired of reading it, and I'd love to take you along and share what stands out to me in the Bible.
 
+## Dig deeper yourself
+
+Curious which Bibles, tools and books I use? Have a look at [my toolbox](/toolbox/).
+
 ## Get in touch
 
 Want to know more, or get in touch? You can find me on Instagram at [@beyond_the_surface_studies](https://www.instagram.com/beyond_the_surface_studies/), or look for Beyond the Surface in the [Bible App](https://www.bible.com/nl/organizations/a25773d0-84ae-4698-b7bc-ec6a4838bd63).

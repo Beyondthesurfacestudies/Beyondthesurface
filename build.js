@@ -36,6 +36,7 @@ const NAV = [
   ["/themes/", "Themes", "themes"],
   ["/words/", "Word Studies", "words"],
   ["/plans/", "Reading Plans", "plans"],
+    ["/maps/", "Maps", "maps"],
   ["/about/", "About", "about"],
 ];
 
@@ -246,12 +247,15 @@ for (const [file, url, title, key] of [
   ["themes.md", "/themes/", "Themes", "themes"],
   ["words.md", "/words/", "Word Studies", "words"],
   ["plans.md", "/plans/", "Reading Plans", "plans"],
+    ["toolbox.md", "/toolbox/", "My Toolbox", "toolbox"],
+  ["maps.md", "/maps/", "Maps", "maps"],
 ]) {
   const src = matter(read(file, `# ${title}\n\nComing soon.`));
   const html = md.render(src.content.replace(/<\/?section[^>]*>/g, "").replace(/\{\{\s*site\.author\s*\}\}/g, site.author));
   write(url, page({
     title: src.data.title || title, description: src.data.summary, url, current: key,
     body: `<section class="wrap narrow section prose page-head">\n${html}\n</section>`,
+    wrap ${src.data.wide ? "" : "narrow "}section prose page-head
   }));
 }
 

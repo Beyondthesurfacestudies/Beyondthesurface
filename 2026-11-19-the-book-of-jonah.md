@@ -25,6 +25,7 @@ And now God called him to go to Israel's archenemy, the Assyrians. According to 
 I can imagine that Jonah must have been very afraid that the same thing would happen to him, especially with such an unwelcome message to deliver. But the text says nothing about that. Jonah has an important reason that we don't read about yet; it only comes out at the end of the book.
 
 Jonah decides to flee. He wants to get as far away from Nineveh as possible. Nineveh lies to the east of Israel, so instead he chooses a place far to the west (probably in present-day Spain). He boards a ship bound for Tarshish, a long sea route that was certainly not without danger.
+![Map: Jonah flees west from Joppa toward Tarshish, while God sends him east to Nineveh](/jonah-map.png)
 
 *An interesting detail:* in Jonah 1 and 2, the word “went down” (Hebrew *yarad*) appears again and again. Jonah goes down to Joppa, down into the ship, and down into the hold (1:3, 5), and finally “down to the bottoms of the mountains” (2:6). Then God brings him up. The story is literally a downward movement that God reverses.
 

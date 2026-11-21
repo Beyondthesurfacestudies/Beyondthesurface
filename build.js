@@ -17,6 +17,9 @@ const site = {
   author: "Charlotte",
   language: "en",
   url: "https://beyondthesurfacestudies.com",
+  instagram: "https://www.instagram.com/beyond_the_surface_studies/",
+  bibleapp: "https://www.bible.com/nl/organizations/a25773d0-84ae-4698-b7bc-ec6a4838bd63",
+  newsletter: "",
   ...JSON.parse(read("site.json", "{}")),
 };
 site.url = site.url.replace(/\/$/, "");
@@ -27,6 +30,25 @@ const isoDate = (d) => d.toISOString().slice(0, 10);
 const readingTime = (html) => Math.max(1, Math.round(html.replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length / 200)) + " min read";
 const year = new Date().getFullYear();
 const LOGO = ["logo.jpg", "logo.jpeg", "logo.png", "logo.webp", "Logo.jpg", "Logo.png"].find((f) => fs.existsSync(f));
+
+const NAV = [
+  ["/studies/", "Studies", "studies"],
+  ["/themes/", "Themes", "themes"],
+  ["/words/", "Word Studies", "words"],
+  ["/plans/", "Reading Plans", "plans"],
+  ["/about/", "About", "about"],
+];
+
+const newsletter = () => site.newsletter ? `<section class="newsletter">
+  <div class="wrap narrow newsletter-inner">
+    <h2>Get new studies in your inbox</h2>
+    <p>A short email whenever a new study is published. No spam, unsubscribe anytime.</p>
+    <form action="${esc(site.newsletter)}" method="post" class="newsletter-form">
+      <input type="email" name="email_address" placeholder="Your email address" aria-label="Your email address" required>
+      <button type="submit" class="btn">Subscribe</button>
+    </form>
+  </div>
+</section>` : "";
 
 function write(url, content) {
   const file = path.join(OUT, url.endsWith("/") ? url + "index.html" : url);
@@ -82,18 +104,18 @@ function page({ title, description, url, type = "website", body, current = "", i
         <span>${esc(site.title)}</span>
       </a>
       <nav class="nav" aria-label="Main">
-        <a href="/studies/"${current === "studies" ? ' aria-current="page"' : ""}>Studies</a>
-        <a href="/about/"${current === "about" ? ' aria-current="page"' : ""}>About</a>
+${NAV.map(([href, label, key]) => `        <a href="${href}"${current === key ? ' aria-current="page"' : ""}>${label}</a>`).join("\n")}
       </nav>
     </div>
   </header>
   <main id="main">
 ${body}
   </main>
+  ${newsletter()}
   <footer class="site-footer">
     <div class="wrap footer-inner">
       <p class="footer-verse">“Deep calls to deep.” <span>Psalm 42:7</span></p>
-      <p>© ${year} ${esc(site.title)}</p>
+      <p class="footer-links">${site.instagram ? `<a href="${esc(site.instagram)}">Instagram</a>` : ""}${site.bibleapp ? `<a href="${esc(site.bibleapp)}">Bible App</a>` : ""}<span>© ${year} ${esc(site.title)}</span></p>
     </div>
   </footer>
 </body>
@@ -218,13 +240,20 @@ ${s.html}
   }));
 });
 
-// About
-const about = matter(read("about.md", "# About\n\nComing soon."));
-const aboutHtml = md.render(about.content.replace(/<\/?section[^>]*>/g, "").replace(/\{\{\s*site\.author\s*\}\}/g, site.author));
-write("/about/", page({
-  title: "About", url: "/about/", current: "about",
-  body: `<section class="wrap narrow section prose page-head">\n${aboutHtml}\n</section>`,
-}));
+// Simple pages (About, Themes, Word Studies, Reading Plans)
+for (const [file, url, title, key] of [
+  ["about.md", "/about/", "About", "about"],
+  ["themes.md", "/themes/", "Themes", "themes"],
+  ["words.md", "/words/", "Word Studies", "words"],
+  ["plans.md", "/plans/", "Reading Plans", "plans"],
+]) {
+  const src = matter(read(file, `# ${title}\n\nComing soon.`));
+  const html = md.render(src.content.replace(/<\/?section[^>]*>/g, "").replace(/\{\{\s*site\.author\s*\}\}/g, site.author));
+  write(url, page({
+    title: src.data.title || title, description: src.data.summary, url, current: key,
+    body: `<section class="wrap narrow section prose page-head">\n${html}\n</section>`,
+  }));
+}
 
 // Static files
 for (const f of fs.readdirSync(".")) {
@@ -237,7 +266,7 @@ if (pdfs.length) {
 }
 
 // Sitemap + robots
-const urls = ["/", "/studies/", "/about/", ...studies.map((s) => s.url)];
+const urls = ["/", "/studies/", "/themes/", "/words/", "/plans/", "/about/", ...studies.map((s) => s.url)];
 write("/sitemap.xml", `<?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map((u) => `  <url><loc>${site.url}${u}</loc></url>`).join("\n")}
